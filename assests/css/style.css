@@ -561,12 +561,12 @@ footer,.footer-section{
   z-index: 100;
 }
 
-
+/* next code of service component */
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
 #services{
-  margin: 5rem 0;
+  margin: 0rem 0;
 }
 #services .section-title{
   padding: 0rem 0 3rem 0;
@@ -748,3 +748,12 @@ footer,.footer-section{
 .services .service-item:hover .icon {
   background: #fff;
 }
+
+
+#services{
+  padding: 2rem 0;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
