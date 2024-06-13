@@ -413,6 +413,70 @@ display: none;
   color: rgb(3, 121, 238);
 }
 /* nabar upper */
+/* preheader */
+.pre-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.logo-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo-content ul li {  
+  list-style: none;
+  text-decoration: none;
+}
+.logo-content ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 500;
+    /* box-shadow: 0 0 0.1rem #00000067; */
+}
+.logo-content ul li a:hover{
+    color: blueviolet;
+    
+}
+.logo-content ul{
+  padding: 0.3rem 0.5rem;
+  display: grid;
+  flex-direction: row;  
+  align-items: center;
+}
+
+.supprtnum a:hover{
+  color: #000;
+}
+
+@media  (max-width: 600px) {
+  .textNav, .supprtnum{
+display: none;
+  }
+}
+/* preheader */
+
+
+
+.head_paragraph .textNav{
+  font-size: 1.4rem;
+}
+@media (max-width:1200px) {
+  .head_paragraph .textNav{
+  display: none;
+}
+}
+.ulset{
+  display: grid !important;
+  align-items: center;
+  padding-top: 0 !important;
+
+}
+
+
 
 /* navcss */
 
@@ -561,12 +625,12 @@ footer,.footer-section{
   z-index: 100;
 }
 
-
+/* next code of service component */
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
 #services{
-  margin: 5rem 0;
+  margin: 0rem 0;
 }
 #services .section-title{
   padding: 0rem 0 3rem 0;
@@ -748,3 +812,12 @@ footer,.footer-section{
 .services .service-item:hover .icon {
   background: #fff;
 }
+
+
+#services{
+  padding: 2rem 0;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
